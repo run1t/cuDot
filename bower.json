@@ -1,0 +1,20 @@
+{
+  "name": "cuDot",
+  "main": "cuDot.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/run1t/cuDot",
+  "authors": [
+    "run1t <reunanln@gmail.com>"
+  ],
+  "keywords": [
+    "loading"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
