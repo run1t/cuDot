@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="example">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>cuDot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+    <script src="../depends/async.js"></script>
+    <script src="../cuDot.js"></script>
+    <script>
+        (function(){
+            var app = angular.module('example',['cuDot']);
+
+        })()
+
+    </script>
+</head>
+<body>
+    <cu-dot number="4" height="40" color="#3c8dbc" ></cu-dot>
+</body>
+</html>
